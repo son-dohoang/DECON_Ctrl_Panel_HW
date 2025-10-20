@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 85.09 78.74)
-		(size 62.23 43.18)
+		(size 58.42 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "250c4b1e-1ad6-4af0-9fac-c14ff50949a2")
-		(property "Sheetname" "INPUT"
+		(property "Sheetname" "BUTTON&SENSOR"
 			(at 85.09 78.0284 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "decon_input.kicad_sch"
+		(property "Sheetfile" "button_sensor.kicad_sch"
 			(at 85.09 122.5046 0)
 			(effects
 				(font
@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2b9ac746-2b50-4445-9c97-b47a3b42976f")
-		(property "Sheetname" "OUTPUT"
+		(property "Sheetname" "RELAY"
 			(at 262.89 70.4084 0)
 			(effects
 				(font
@@ -72,7 +72,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "decon_output.kicad_sch"
+		(property "Sheetfile" "relay.kicad_sch"
 			(at 262.89 122.5046 0)
 			(effects
 				(font
