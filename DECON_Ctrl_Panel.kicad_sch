@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 85.09 78.74)
+		(size 62.23 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "250c4b1e-1ad6-4af0-9fac-c14ff50949a2")
+		(property "Sheetname" "INPUT"
+			(at 85.09 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decon_input.kicad_sch"
+			(at 85.09 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 262.89 71.12)
+		(size 87.63 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2b9ac746-2b50-4445-9c97-b47a3b42976f")
+		(property "Sheetname" "OUTPUT"
+			(at 262.89 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decon_output.kicad_sch"
+			(at 262.89 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 69.85)
+		(size 87.63 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "670a50ad-84ff-4fbb-b95f-364c96f02187")
+		(property "Sheetname" "MCU"
+			(at 166.37 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decon_mcu.kicad_sch"
+			(at 166.37 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 31.75)
+		(size 66.04 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bf01e6cb-1c5c-4e13-9704-b49e2f9ce8ee")
+		(property "Sheetname" "POWER"
+			(at 81.28 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decon_power.kicad_sch"
+			(at 81.28 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
