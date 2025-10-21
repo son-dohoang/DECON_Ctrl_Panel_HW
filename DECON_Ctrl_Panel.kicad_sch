@@ -131,48 +131,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 81.28 31.75)
-		(size 66.04 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "bf01e6cb-1c5c-4e13-9704-b49e2f9ce8ee")
-		(property "Sheetname" "POWER"
-			(at 81.28 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "decon_power.kicad_sch"
-			(at 81.28 70.4346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0"
-					(page "5")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
