@@ -820,6 +820,18 @@
 		(uuid "06ece429-9ff7-48af-8f6b-ffc8f238352e")
 	)
 	(junction
+		(at 100.33 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a13b0d0-068f-4df3-ad08-600af83d1fc5")
+	)
+	(junction
+		(at 100.33 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eeb0717-99ed-4490-b487-47e2cfb7b0c9")
+	)
+	(junction
 		(at 172.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -874,16 +886,22 @@
 		(uuid "34240d83-dfb5-485a-bdef-a44c269bbf4f")
 	)
 	(junction
-		(at 93.98 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3613dc9b-5da4-4e67-8d89-aab6c68058f5")
-	)
-	(junction
 		(at 137.16 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38750358-b70e-47df-8402-bcddad120e00")
+	)
+	(junction
+		(at 100.33 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cbcd4ea-7df1-4e15-8018-b32dccb223c5")
+	)
+	(junction
+		(at 100.33 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4372506b-3fa2-419c-b60f-4b9fb9f6f3fe")
 	)
 	(junction
 		(at 81.28 46.99)
@@ -898,22 +916,10 @@
 		(uuid "45782340-f3f8-4d3c-ba7c-f7983afc72ca")
 	)
 	(junction
-		(at 172.72 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ded073e-1154-4e3e-9aa5-df938d291908")
-	)
-	(junction
 		(at 53.34 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "510e9d89-0229-4316-ad8e-3647c7a0ad13")
-	)
-	(junction
-		(at 93.98 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51583ee6-cb9a-4f95-ab96-64c9793adec3")
 	)
 	(junction
 		(at 53.34 172.72)
@@ -934,6 +940,12 @@
 		(uuid "6b8f99c0-cae3-4193-89c4-cc6945c9654e")
 	)
 	(junction
+		(at 53.34 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70a52222-3f20-4f08-b288-6f99590d5002")
+	)
+	(junction
 		(at 86.36 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -944,18 +956,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "786ca0d6-9c62-46c5-901b-2d80383f541d")
-	)
-	(junction
-		(at 93.98 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b5466cb-a2dc-47f7-984e-0198a2a0555f")
-	)
-	(junction
-		(at 93.98 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f54ea03-42c7-458e-8602-4831ca859bf0")
 	)
 	(junction
 		(at 44.45 26.67)
@@ -970,12 +970,6 @@
 		(uuid "81ff61aa-b9a3-472d-a872-06fd806d1093")
 	)
 	(junction
-		(at 189.23 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85882794-8610-4a00-907c-921a8d3477d5")
-	)
-	(junction
 		(at 137.16 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -986,12 +980,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94cce71f-825f-4ab1-aaed-d0b3f9890a26")
-	)
-	(junction
-		(at 93.98 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b9f2e4e-3970-4105-bad9-7ee5bcc82d80")
 	)
 	(junction
 		(at 46.99 26.67)
@@ -1012,6 +1000,12 @@
 		(uuid "a8239e14-3244-40d4-9ac0-afedb5d61998")
 	)
 	(junction
+		(at 100.33 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab1af6d1-d5d4-4ef0-a643-ec2804b7e4a1")
+	)
+	(junction
 		(at 44.45 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1022,6 +1016,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae716a24-d4f1-4601-872b-5fd17d6ebbdb")
+	)
+	(junction
+		(at 100.33 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2d55ceb-c9b9-4eb0-8144-ebae7555f241")
 	)
 	(junction
 		(at 53.34 125.73)
@@ -1090,16 +1090,10 @@
 		(uuid "d084a154-174a-4282-9ff4-060fd2594be8")
 	)
 	(junction
-		(at 93.98 172.72)
+		(at 100.33 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d7da3280-ac1e-460a-bfd7-c1385efd52b6")
-	)
-	(junction
-		(at 93.98 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9ce2669-00d9-4097-b539-9b68336f20ad")
+		(uuid "d58c9c73-4121-4128-9fdf-2a9b2d46b60c")
 	)
 	(junction
 		(at 137.16 36.83)
@@ -1144,10 +1138,10 @@
 		(uuid "ea5c704d-5f45-4f63-8d43-ec11ee45ced7")
 	)
 	(junction
-		(at 137.16 161.29)
+		(at 100.33 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f202cf7d-74eb-4b3d-a468-eaaece7b0df6")
+		(uuid "f9b8adbe-5f7d-4920-a8d5-be2f5d59f10e")
 	)
 	(wire
 		(pts
@@ -1181,7 +1175,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 125.73) (xy 93.98 125.73)
+			(xy 91.44 125.73) (xy 100.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1208,16 +1202,6 @@
 			(type default)
 		)
 		(uuid "0b7f8608-8e72-4f7d-835b-8b04d0e679ef")
-	)
-	(wire
-		(pts
-			(xy 176.53 176.53) (xy 172.72 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c03f950-03f1-44f4-aa4a-1475493e8182")
 	)
 	(wire
 		(pts
@@ -1251,7 +1235,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 125.73) (xy 93.98 142.24)
+			(xy 100.33 125.73) (xy 100.33 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1261,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 172.72) (xy 93.98 187.96)
+			(xy 100.33 172.72) (xy 100.33 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1321,13 +1305,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 176.53) (xy 172.72 181.61)
+			(xy 57.15 203.2) (xy 53.34 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18fe038e-37f5-4641-b3ae-94fda8e5de4c")
+		(uuid "180067e5-0c51-4a21-ad3e-a0e101f2c95b")
 	)
 	(wire
 		(pts
@@ -1421,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 187.96) (xy 93.98 187.96)
+			(xy 91.44 187.96) (xy 100.33 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1471,6 +1455,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 208.28) (xy 83.82 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0c1371-68dd-4c8b-b47b-37065fe54eeb")
+	)
+	(wire
+		(pts
 			(xy 82.55 177.8) (xy 83.82 177.8)
 		)
 		(stroke
@@ -1491,16 +1485,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 186.69) (xy 173.99 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eff55f3-cc69-48af-93c0-8069063604ec")
-	)
-	(wire
-		(pts
 			(xy 184.15 156.21) (xy 189.23 156.21)
 		)
 		(stroke
@@ -1508,16 +1492,6 @@
 			(type default)
 		)
 		(uuid "2faaf3d2-dffc-431c-ad17-e975153bea81")
-	)
-	(wire
-		(pts
-			(xy 172.72 181.61) (xy 173.99 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31054292-0ca4-4b55-8e57-d4e77f2aeae6")
 	)
 	(wire
 		(pts
@@ -1591,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 95.25) (xy 93.98 110.49)
+			(xy 100.33 95.25) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 172.72) (xy 93.98 172.72)
+			(xy 91.44 172.72) (xy 100.33 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1731,6 +1705,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 203.2) (xy 67.31 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5460f336-ca79-4715-b242-717483191b00")
+	)
+	(wire
+		(pts
 			(xy 58.42 26.67) (xy 58.42 31.75)
 		)
 		(stroke
@@ -1791,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 80.01) (xy 93.98 80.01)
+			(xy 91.44 80.01) (xy 100.33 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1831,16 +1815,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 181.61) (xy 137.16 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fd680b5-79eb-4772-bac0-1d47c1fb0047")
-	)
-	(wire
-		(pts
 			(xy 58.42 25.4) (xy 58.42 26.67)
 		)
 		(stroke
@@ -1871,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 93.98 95.25)
+			(xy 100.33 80.01) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 80.01) (xy 96.52 80.01)
+			(xy 100.33 80.01) (xy 102.87 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 157.48) (xy 93.98 172.72)
+			(xy 100.33 157.48) (xy 100.33 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2041,23 +2015,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 95.25) (xy 93.98 95.25)
+			(xy 91.44 95.25) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a390a79-cbf5-4fe7-a601-f05053daaa53")
-	)
-	(wire
-		(pts
-			(xy 184.15 176.53) (xy 189.23 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b80fba7-11aa-4077-82c6-c5c0b48135da")
 	)
 	(wire
 		(pts
@@ -2241,6 +2205,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 203.2) (xy 100.33 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8c9369-da33-43ce-a802-2c30956d75d1")
+	)
+	(wire
+		(pts
 			(xy 82.55 100.33) (xy 83.82 100.33)
 		)
 		(stroke
@@ -2248,6 +2222,16 @@
 			(type default)
 		)
 		(uuid "8ca2217c-8480-47c1-8a9f-a5fcbbc3c9a7")
+	)
+	(wire
+		(pts
+			(xy 100.33 187.96) (xy 100.33 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d060e51-f232-46da-8c4c-60a15cf19c7d")
 	)
 	(wire
 		(pts
@@ -2331,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 93.98 142.24)
+			(xy 91.44 142.24) (xy 100.33 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2351,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 157.48) (xy 93.98 157.48)
+			(xy 91.44 157.48) (xy 100.33 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2388,16 +2372,6 @@
 			(type default)
 		)
 		(uuid "a156a958-b2c7-44eb-b717-c6d4a4868d5c")
-	)
-	(wire
-		(pts
-			(xy 147.32 181.61) (xy 137.16 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1d415e5-3a8c-4262-89d4-54f7620cdc76")
 	)
 	(wire
 		(pts
@@ -2621,26 +2595,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 156.21) (xy 189.23 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7a528f7-8d6b-4065-8856-7d98bf40f03e")
-	)
-	(wire
-		(pts
-			(xy 171.45 181.61) (xy 172.72 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba47eb3c-7756-4cb8-883f-d28a793dd8b1")
-	)
-	(wire
-		(pts
 			(xy 46.99 26.67) (xy 58.42 26.67)
 		)
 		(stroke
@@ -2761,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 110.49) (xy 93.98 110.49)
+			(xy 91.44 110.49) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2821,6 +2775,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 187.96) (xy 53.34 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf4afbd-19fc-4613-809f-f18279d1209b")
+	)
+	(wire
+		(pts
 			(xy 93.98 54.61) (xy 88.9 54.61)
 		)
 		(stroke
@@ -2868,16 +2832,6 @@
 			(type default)
 		)
 		(uuid "d2400dfd-0d27-4430-a2fd-7facdb457bd6")
-	)
-	(wire
-		(pts
-			(xy 154.94 181.61) (xy 156.21 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d412888a-47c5-4fac-b684-dbc4d0fc3ea0")
 	)
 	(wire
 		(pts
@@ -2938,6 +2892,16 @@
 			(type default)
 		)
 		(uuid "d8bfe662-f2e1-46f7-b432-6ae1349d172e")
+	)
+	(wire
+		(pts
+			(xy 82.55 203.2) (xy 83.82 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f2a4b6-446b-40d0-8d5b-5356d46b8d1f")
 	)
 	(wire
 		(pts
@@ -3061,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 142.24) (xy 93.98 157.48)
+			(xy 100.33 142.24) (xy 100.33 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3071,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 110.49) (xy 93.98 125.73)
+			(xy 100.33 110.49) (xy 100.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3168,16 +3132,6 @@
 			(type default)
 		)
 		(uuid "f7731896-f429-4863-bdda-5c6ab32c1a55")
-	)
-	(wire
-		(pts
-			(xy 151.13 186.69) (xy 156.21 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82f8389-4cbe-46ae-ae13-36fb0fc214ab")
 	)
 	(wire
 		(pts
@@ -3517,28 +3471,6 @@
 			)
 		)
 	)
-	(global_label "BUTTON_5"
-		(shape input)
-		(at 151.13 186.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3f0f2bc7-a882-4787-9c15-8cd3405779b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.771 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "74138_Y1"
 		(shape input)
 		(at 93.98 39.37 0)
@@ -3596,6 +3528,28 @@
 		(uuid "47d4b0a4-79e3-4340-8b11-47754811b705")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.0672 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_MCU"
+		(shape input)
+		(at 67.31 208.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "483b6e1e-94e6-4053-88c8-939b99d468d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.4348 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +3671,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 96.52 80.01 0)
+		(at 102.87 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3727,7 +3681,7 @@
 		)
 		(uuid "59b23a5c-9565-4cb4-8f63-468d9093b5cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.92 80.01 0)
+			(at 110.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,6 +3911,28 @@
 			)
 		)
 	)
+	(global_label "MCU_EXTI"
+		(shape input)
+		(at 173.99 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ce03474-e280-4c01-ab45-243f8eecbe58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.9256 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_5"
 		(shape input)
 		(at 83.82 162.56 0)
@@ -4045,6 +4021,28 @@
 			)
 		)
 	)
+	(global_label "LED_POWER"
+		(shape input)
+		(at 83.82 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aedfee1d-9a5c-42c7-b467-eb263dd082bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.6908 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND_MCU"
 		(shape input)
 		(at 173.99 146.05 0)
@@ -4058,28 +4056,6 @@
 		(uuid "bc852273-899b-4681-ab15-50ebb792263f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.8652 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_BTN_5"
-		(shape input)
-		(at 173.99 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bc8f8b0c-e8f3-4a3b-a01e-cc30caf590d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.7399 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,7 +4109,7 @@
 			)
 		)
 	)
-	(global_label "LED_7"
+	(global_label "EXT_OUTPUT"
 		(shape input)
 		(at 83.82 193.04 0)
 		(fields_autoplaced yes)
@@ -4145,7 +4121,7 @@
 		)
 		(uuid "c4f3b191-deb0-49ad-ae6a-a14c3ae0036a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.4294 193.04 0)
+			(at 98.2956 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4241,7 @@
 			)
 		)
 	)
-	(global_label "BUTTON_4"
+	(global_label "EXT_INPUT"
 		(shape input)
 		(at 151.13 166.37 180)
 		(fields_autoplaced yes)
@@ -4277,7 +4253,7 @@
 		)
 		(uuid "d8cc1732-d7de-46cd-b99e-e4337f5d0bb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.771 166.37 0)
+			(at 138.3477 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,50 +4439,6 @@
 			)
 		)
 	)
-	(global_label "GND_MCU"
-		(shape input)
-		(at 173.99 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fa376113-a07f-4979-be53-1f623f4460f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.8652 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MCU_BTN_4"
-		(shape input)
-		(at 173.99 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fea93539-f5c8-4863-96e0-aab8ce19bad8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.7399 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 180.34 135.89 270)
@@ -4517,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00a35c67-d0c7-4103-b48a-9807459bf55e")
-		(property "Reference" "R95"
+		(property "Reference" "R116"
 			(at 180.34 129.54 90)
 			(effects
 				(font
@@ -4569,7 +4501,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R95")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04cd7735-3e96-4f2e-abbd-b78e460d1213")
-		(property "Reference" "R91"
+		(property "Reference" "R100"
 			(at 180.34 45.72 90)
 			(effects
 				(font
@@ -4637,7 +4569,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R91")
+					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -4653,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "089efe5a-329d-43c3-ba33-c55a92b3c00b")
-		(property "Reference" "U26"
+		(property "Reference" "U24"
 			(at 74.93 73.66 0)
 			(effects
 				(font
@@ -4711,7 +4643,81 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U26")
+					(reference "U24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Isolator:LTV-817S")
+		(at 74.93 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a5575c5-54a2-473f-9e99-5cd9b7b4efa1")
+		(property "Reference" "U36"
+			(at 74.93 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTV-817S"
+			(at 74.93 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
+			(at 74.93 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
+			(at 66.04 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
+			(at 74.93 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8815e82b-25e3-4224-90b1-ae0224c3f02f")
+		)
+		(pin "4"
+			(uuid "28656062-8c1b-49fa-8634-e5e1f11c7360")
+		)
+		(pin "1"
+			(uuid "623817aa-8f27-41e1-b08a-d50f99dcd6bd")
+		)
+		(pin "2"
+			(uuid "8718cb28-e63d-451c-80b0-154cb20ce014")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
+					(reference "U36")
 					(unit 1)
 				)
 			)
@@ -4727,7 +4733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ac784bb-740d-493c-a61e-4fffc6938a86")
-		(property "Reference" "R49"
+		(property "Reference" "R114"
 			(at 60.96 119.38 90)
 			(effects
 				(font
@@ -4779,7 +4785,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R49")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -4795,7 +4801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ba2d003-06be-4b38-b7db-016e7c217fd2")
-		(property "Reference" "R59"
+		(property "Reference" "R113"
 			(at 151.13 113.03 90)
 			(effects
 				(font
@@ -4847,7 +4853,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R59")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f00fd9b-1d9d-482e-8f99-d57d820bfd44")
-		(property "Reference" "R71"
+		(property "Reference" "R108"
 			(at 87.63 88.9 90)
 			(effects
 				(font
@@ -4915,7 +4921,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R71")
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -4931,7 +4937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ff4a60f-c8da-4cf3-8e66-0b2ab809dee3")
-		(property "Reference" "U46"
+		(property "Reference" "U33"
 			(at 163.83 154.94 0)
 			(effects
 				(font
@@ -4989,75 +4995,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 181.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d85f85d-37cc-4e51-9c0d-94df4c9f81de")
-		(property "Reference" "R62"
-			(at 151.13 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 151.13 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 151.13 183.388 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aedd4e1e-4c50-4ffe-9261-8bbf3af999d0")
-		)
-		(pin "2"
-			(uuid "4d5be193-a48d-4f4b-8a61-df14d3559458")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R62")
+					(reference "U33")
 					(unit 1)
 				)
 			)
@@ -5073,7 +5011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "256f13cb-99fd-46f0-b4b6-fa95dc7fdb1a")
-		(property "Reference" "R70"
+		(property "Reference" "R95"
 			(at 86.36 30.4799 0)
 			(effects
 				(font
@@ -5127,7 +5065,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R70")
+					(reference "R95")
 					(unit 1)
 				)
 			)
@@ -5283,7 +5221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36db70c0-0079-4a6b-b0d4-ab0add972dc9")
-		(property "Reference" "U2"
+		(property "Reference" "U21"
 			(at 60.5633 29.21 0)
 			(effects
 				(font
@@ -5379,7 +5317,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U2")
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -5395,7 +5333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e301cb7-11d3-43e6-b43a-22098b37d7d0")
-		(property "Reference" "U44"
+		(property "Reference" "U28"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -5453,75 +5391,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42833577-0c4e-4509-9fb4-d50583232b54")
-		(property "Reference" "R97"
-			(at 180.34 170.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 180.34 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 180.34 174.752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b2a138b-def4-45cd-8a6d-0818dd7c83bd")
-		)
-		(pin "2"
-			(uuid "f112d667-1388-42a7-8049-cd81c9165a48")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R97")
+					(reference "U28")
 					(unit 1)
 				)
 			)
@@ -5537,7 +5407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46355f6f-59e7-4749-8b66-9de5f3bf0052")
-		(property "Reference" "R55"
+		(property "Reference" "R99"
 			(at 151.13 30.48 90)
 			(effects
 				(font
@@ -5589,7 +5459,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R55")
+					(reference "R99")
 					(unit 1)
 				)
 			)
@@ -5605,7 +5475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ba35b67-4e2b-4da4-afd8-eac532157bf2")
-		(property "Reference" "R51"
+		(property "Reference" "R124"
 			(at 60.96 166.37 90)
 			(effects
 				(font
@@ -5657,7 +5527,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R51")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -5673,7 +5543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb0a474-b434-444c-98c7-93da47aa4baf")
-		(property "Reference" "U39"
+		(property "Reference" "U35"
 			(at 74.93 181.61 0)
 			(effects
 				(font
@@ -5731,7 +5601,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U39")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -5747,7 +5617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50fa9ef3-9ba9-4891-94c9-82b3a8d6bf14")
-		(property "Reference" "U36"
+		(property "Reference" "U29"
 			(at 74.93 119.38 0)
 			(effects
 				(font
@@ -5805,7 +5675,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U36")
+					(reference "U29")
 					(unit 1)
 				)
 			)
@@ -5821,7 +5691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54bcbe61-a7f6-44d6-918b-2897b723b719")
-		(property "Reference" "R54"
+		(property "Reference" "R119"
 			(at 87.63 135.89 90)
 			(effects
 				(font
@@ -5873,7 +5743,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R54")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -5889,7 +5759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "580b017a-afc4-4fdb-bd66-31fae1610e88")
-		(property "Reference" "U27"
+		(property "Reference" "U31"
 			(at 74.93 135.89 0)
 			(effects
 				(font
@@ -5947,7 +5817,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U27")
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -5963,7 +5833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "582bdc5c-5ccd-4c67-9d1a-3128efdef210")
-		(property "Reference" "U42"
+		(property "Reference" "U23"
 			(at 163.83 71.12 0)
 			(effects
 				(font
@@ -6021,7 +5891,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U42")
+					(reference "U23")
 					(unit 1)
 				)
 			)
@@ -6037,7 +5907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588a3df4-1400-4748-920c-b8840f8edbd3")
-		(property "Reference" "U40"
+		(property "Reference" "U20"
 			(at 163.83 30.48 0)
 			(effects
 				(font
@@ -6095,7 +5965,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U40")
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -6111,7 +5981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588a557e-b7a9-41d9-aa39-dd67385b1a7a")
-		(property "Reference" "R72"
+		(property "Reference" "R111"
 			(at 87.63 104.14 90)
 			(effects
 				(font
@@ -6163,7 +6033,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R72")
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -6179,7 +6049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c52b7e8-cfa9-4006-9770-058960a25ddc")
-		(property "Reference" "R93"
+		(property "Reference" "R106"
 			(at 180.34 87.63 90)
 			(effects
 				(font
@@ -6231,7 +6101,75 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R93")
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e2c3599-258d-454f-b240-7c6ae78705a0")
+		(property "Reference" "R128"
+			(at 60.96 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 60.96 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 60.96 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "745b3224-1885-4758-9845-d3e0552c05f4")
+		)
+		(pin "2"
+			(uuid "7f89b5e3-8807-4122-b185-b4f010bb2d51")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
+					(reference "R128")
 					(unit 1)
 				)
 			)
@@ -6247,7 +6185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6065ce7f-d4ca-422d-abef-16c959bd2c3e")
-		(property "Reference" "R67"
+		(property "Reference" "R92"
 			(at 78.74 30.4799 0)
 			(effects
 				(font
@@ -6301,7 +6239,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R67")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -6317,7 +6255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63772c1b-8fe2-4207-bcff-902e53d60061")
-		(property "Reference" "R96"
+		(property "Reference" "R120"
 			(at 180.34 149.86 90)
 			(effects
 				(font
@@ -6369,7 +6307,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R96")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -6385,7 +6323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "669529b7-51fc-4b23-a67d-48b9f0dd9a73")
-		(property "Reference" "R76"
+		(property "Reference" "R127"
 			(at 87.63 181.61 90)
 			(effects
 				(font
@@ -6437,7 +6375,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R76")
+					(reference "R127")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5be31e-43a0-49c3-aac8-be9121f3256f")
-		(property "Reference" "R94"
+		(property "Reference" "R112"
 			(at 180.34 107.95 90)
 			(effects
 				(font
@@ -6505,7 +6443,75 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R94")
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e0f1d10-aa5f-4e44-9b68-9b1fa5759c5e")
+		(property "Reference" "R129"
+			(at 87.63 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 87.63 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 87.63 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b977b08f-7612-46b7-b610-23b045067ec4")
+		)
+		(pin "2"
+			(uuid "2734e481-cb9d-40b8-b413-4fb7099ba5b1")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
+					(reference "R129")
 					(unit 1)
 				)
 			)
@@ -6521,7 +6527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fd73995-fe6b-42f8-b8e2-e784f10991d8")
-		(property "Reference" "R58"
+		(property "Reference" "R109"
 			(at 151.13 92.71 90)
 			(effects
 				(font
@@ -6573,7 +6579,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R58")
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -6589,7 +6595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "716590ed-e0ac-4c7c-965d-066279485a51")
-		(property "Reference" "R66"
+		(property "Reference" "R91"
 			(at 76.2 30.4799 0)
 			(effects
 				(font
@@ -6643,7 +6649,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R66")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -6659,7 +6665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c485b76-a8c4-456e-8221-a317e641df04")
-		(property "Reference" "R74"
+		(property "Reference" "R122"
 			(at 87.63 151.13 90)
 			(effects
 				(font
@@ -6711,7 +6717,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R74")
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -6727,7 +6733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7edcb7c7-8dfd-4a77-b98c-a00a21238e3d")
-		(property "Reference" "U34"
+		(property "Reference" "U25"
 			(at 74.93 88.9 0)
 			(effects
 				(font
@@ -6785,7 +6791,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U34")
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -6801,7 +6807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "841f0f83-47ac-42f8-b002-e720d32ee040")
-		(property "Reference" "R52"
+		(property "Reference" "R105"
 			(at 87.63 73.66 90)
 			(effects
 				(font
@@ -6853,7 +6859,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R52")
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -6930,80 +6936,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Isolator:LTV-817S")
-		(at 163.83 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f402fe8-7c42-41ac-af7b-52281d1872f0")
-		(property "Reference" "U47"
-			(at 163.83 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-817S"
-			(at 163.83 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
-			(at 163.83 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 154.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
-			(at 163.83 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a648af74-f76c-4943-bb5c-9aead657710a")
-		)
-		(pin "4"
-			(uuid "607f8e83-6d6d-48ef-a5fe-68fd9710db9e")
-		)
-		(pin "1"
-			(uuid "b0f7a6ae-8a73-499f-85ad-b026eb153b31")
-		)
-		(pin "2"
-			(uuid "0086e6e0-4381-4138-86b5-63c7aa3a2c34")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 60.96 80.01 90)
 		(unit 1)
@@ -7013,7 +6945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "908090d5-92d1-4957-ab92-fc7fa03113f3")
-		(property "Reference" "R43"
+		(property "Reference" "R104"
 			(at 60.96 73.66 90)
 			(effects
 				(font
@@ -7065,7 +6997,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R43")
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -7081,7 +7013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92931954-dfcd-43b1-8bc6-457e214a1ee0")
-		(property "Reference" "R60"
+		(property "Reference" "R117"
 			(at 151.13 134.62 90)
 			(effects
 				(font
@@ -7133,7 +7065,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R60")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -7149,7 +7081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f8fc94-b237-402d-8b63-c246573d893f")
-		(property "Reference" "R69"
+		(property "Reference" "R94"
 			(at 83.82 30.4799 0)
 			(effects
 				(font
@@ -7203,7 +7135,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R69")
+					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b375f2-7fc9-468d-8d72-4f44d4c8bf27")
-		(property "Reference" "U45"
+		(property "Reference" "U30"
 			(at 163.83 134.62 0)
 			(effects
 				(font
@@ -7277,7 +7209,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U45")
+					(reference "U30")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ee8b2ca-c990-46dd-a690-72f0dec1e121")
-		(property "Reference" "R78"
+		(property "Reference" "R97"
 			(at 91.44 30.4799 0)
 			(effects
 				(font
@@ -7347,7 +7279,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R78")
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -7363,7 +7295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1847905-41cc-4155-8d60-2cad1ff5b669")
-		(property "Reference" "R47"
+		(property "Reference" "R107"
 			(at 60.96 88.9 90)
 			(effects
 				(font
@@ -7415,7 +7347,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R47")
+					(reference "R107")
 					(unit 1)
 				)
 			)
@@ -7431,7 +7363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed5bb71-cd17-43c3-a4f3-df8dad548821")
-		(property "Reference" "R92"
+		(property "Reference" "R102"
 			(at 180.34 66.04 90)
 			(effects
 				(font
@@ -7483,7 +7415,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R92")
+					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -7499,7 +7431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af4b6af4-6d58-4f9c-b699-b282cd4260cd")
-		(property "Reference" "R90"
+		(property "Reference" "R98"
 			(at 180.34 25.4 90)
 			(effects
 				(font
@@ -7551,7 +7483,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R90")
+					(reference "R98")
 					(unit 1)
 				)
 			)
@@ -7567,7 +7499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f3d19a-aa42-42fe-8a80-50f7e0770030")
-		(property "Reference" "R68"
+		(property "Reference" "R93"
 			(at 81.28 30.4799 0)
 			(effects
 				(font
@@ -7621,7 +7553,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R68")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -7637,7 +7569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05fc360-b77f-4b2b-bb6b-06234aa5556a")
-		(property "Reference" "R75"
+		(property "Reference" "R125"
 			(at 87.63 166.37 90)
 			(effects
 				(font
@@ -7689,7 +7621,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R75")
+					(reference "R125")
 					(unit 1)
 				)
 			)
@@ -7705,7 +7637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d669af9b-ab85-4057-97df-de59ba9e6670")
-		(property "Reference" "R48"
+		(property "Reference" "R110"
 			(at 60.96 104.14 90)
 			(effects
 				(font
@@ -7757,7 +7689,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R48")
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -7773,7 +7705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6fda16a-3d32-4e97-9160-1915f544dbea")
-		(property "Reference" "R53"
+		(property "Reference" "R126"
 			(at 60.96 181.61 90)
 			(effects
 				(font
@@ -7825,7 +7757,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R53")
+					(reference "R126")
 					(unit 1)
 				)
 			)
@@ -7841,7 +7773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8d40c2f-d7c7-42ec-a1d3-88d5c5fc6acf")
-		(property "Reference" "R50"
+		(property "Reference" "R121"
 			(at 60.96 151.13 90)
 			(effects
 				(font
@@ -7893,7 +7825,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R50")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -7909,7 +7841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e26ed4e5-a216-4a57-bbfa-aaa35c0e72ca")
-		(property "Reference" "R65"
+		(property "Reference" "R90"
 			(at 73.66 30.4799 0)
 			(effects
 				(font
@@ -7963,7 +7895,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R65")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -7979,7 +7911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e45f57e0-30c4-43bd-b79b-25c45c5e46dc")
-		(property "Reference" "R56"
+		(property "Reference" "R101"
 			(at 151.13 50.8 90)
 			(effects
 				(font
@@ -8031,7 +7963,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R56")
+					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -8047,7 +7979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ae4efc-e5f8-4267-829c-55faac1e887f")
-		(property "Reference" "U41"
+		(property "Reference" "U22"
 			(at 163.83 50.8 0)
 			(effects
 				(font
@@ -8105,7 +8037,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U41")
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -8121,7 +8053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e51e7632-f5ea-46eb-9c36-b1e79c0cebb1")
-		(property "Reference" "R61"
+		(property "Reference" "R123"
 			(at 151.13 154.94 90)
 			(effects
 				(font
@@ -8173,7 +8105,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R61")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -8189,7 +8121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea241215-b817-4daa-a158-520a3e43026c")
-		(property "Reference" "R73"
+		(property "Reference" "R115"
 			(at 87.63 119.38 90)
 			(effects
 				(font
@@ -8241,7 +8173,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R73")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -8257,7 +8189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecaea5e5-4810-41bf-9dc5-f84d53fe3872")
-		(property "Reference" "U37"
+		(property "Reference" "U32"
 			(at 74.93 151.13 0)
 			(effects
 				(font
@@ -8315,7 +8247,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U37")
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -8331,7 +8263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee779067-bb5c-4f71-8de0-bd4b72c3f605")
-		(property "Reference" "U38"
+		(property "Reference" "U34"
 			(at 74.93 166.37 0)
 			(effects
 				(font
@@ -8389,7 +8321,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U38")
+					(reference "U34")
 					(unit 1)
 				)
 			)
@@ -8405,7 +8337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05510b4-f5fb-4ee3-87d2-5f53e3650bc2")
-		(property "Reference" "U35"
+		(property "Reference" "U27"
 			(at 74.93 104.14 0)
 			(effects
 				(font
@@ -8463,7 +8395,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U35")
+					(reference "U27")
 					(unit 1)
 				)
 			)
@@ -8479,7 +8411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3fe576-770b-4d4b-b7a4-45314d3b8a97")
-		(property "Reference" "R57"
+		(property "Reference" "R103"
 			(at 151.13 71.12 90)
 			(effects
 				(font
@@ -8531,7 +8463,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R57")
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf188e4-8f36-4a7c-a55d-3a65eec0bc7e")
-		(property "Reference" "R44"
+		(property "Reference" "R118"
 			(at 60.96 135.89 90)
 			(effects
 				(font
@@ -8599,7 +8531,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R44")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -8615,7 +8547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd5271f0-2e22-42a7-8d9c-f9d9d7c119d0")
-		(property "Reference" "R77"
+		(property "Reference" "R96"
 			(at 88.9 30.4799 0)
 			(effects
 				(font
@@ -8669,7 +8601,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "R77")
+					(reference "R96")
 					(unit 1)
 				)
 			)
@@ -8685,7 +8617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdbd888a-5d29-4b46-a962-9caed56b5dfd")
-		(property "Reference" "U43"
+		(property "Reference" "U26"
 			(at 163.83 92.71 0)
 			(effects
 				(font
@@ -8743,7 +8675,7 @@
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/250c4b1e-1ad6-4af0-9fac-c14ff50949a2"
-					(reference "U43")
+					(reference "U26")
 					(unit 1)
 				)
 			)
