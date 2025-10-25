@@ -917,7 +917,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:G5NB"
+		(symbol "Son_KiCad_lib:G5NB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1155,7 +1155,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 							)
 						)
 					)
-					(number "A2"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1431,6 +1431,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0324b5cb-0a73-4223-9c86-1a53faed9f56")
+	)
+	(junction
+		(at 339.09 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05c96e94-fe40-4901-acf9-c936d6a18eae")
 	)
 	(junction
 		(at 308.61 40.64)
@@ -2580,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 198.12) (xy 339.09 198.12)
+			(xy 326.39 198.12) (xy 336.55 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2890,6 +2896,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 223.52) (xy 339.09 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edf5a63-7e45-4d6f-9f0a-1d0d3dc665ea")
+	)
+	(wire
+		(pts
 			(xy 67.31 57.15) (xy 67.31 58.42)
 		)
 		(stroke
@@ -3117,16 +3133,6 @@
 			(type default)
 		)
 		(uuid "16c15bf2-d8e9-403e-b3e1-7f379891877b")
-	)
-	(wire
-		(pts
-			(xy 198.12 128.27) (xy 210.82 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c31208-3ee9-4fe2-b7f6-056c9625e1ee")
 	)
 	(wire
 		(pts
@@ -3820,6 +3826,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 224.79) (xy 339.09 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317edbc1-3f82-44d5-8201-c6ec0a214f30")
+	)
+	(wire
+		(pts
 			(xy 180.34 264.16) (xy 181.61 264.16)
 		)
 		(stroke
@@ -3930,13 +3946,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.5004 257.81) (xy 96.52 257.81)
+			(xy 340.36 215.9) (xy 339.09 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37bd74b8-a908-46e8-b426-22c5ce5b6120")
+		(uuid "37c2be81-0902-402d-b463-70385df8132f")
 	)
 	(wire
 		(pts
@@ -3987,16 +4003,6 @@
 			(type default)
 		)
 		(uuid "39da78c1-fc27-42b7-af73-a5f1e8e268ef")
-	)
-	(wire
-		(pts
-			(xy 339.09 199.39) (xy 339.09 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a215abc-74dd-4905-b85a-96f1091f7837")
 	)
 	(wire
 		(pts
@@ -5850,6 +5856,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 215.9) (xy 339.09 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87171e63-39ba-410b-840d-54b7a2d0e0ec")
+	)
+	(wire
+		(pts
 			(xy 109.22 128.27) (xy 114.3 128.27)
 		)
 		(stroke
@@ -6057,6 +6073,16 @@
 			(type default)
 		)
 		(uuid "9339d695-5bdc-436f-9cfe-ad2a541c4ad2")
+	)
+	(wire
+		(pts
+			(xy 336.55 198.12) (xy 336.55 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b33c5e-e7f0-49ac-b321-935bd7298fa0")
 	)
 	(wire
 		(pts
@@ -7240,16 +7266,6 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 215.9) (xy 336.55 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccaa884b-17c9-4e03-b6a0-1bdd849f47c0")
-	)
-	(wire
-		(pts
 			(xy 295.91 46.99) (xy 297.18 46.99)
 		)
 		(stroke
@@ -7370,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 128.27) (xy 198.0796 128.27)
+			(xy 193.04 128.27) (xy 210.82 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7480,7 +7496,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 257.81) (xy 91.44 257.81)
+			(xy 78.74 257.81) (xy 96.52 257.81)
 		)
 		(stroke
 			(width 0)
@@ -7597,16 +7613,6 @@
 			(type default)
 		)
 		(uuid "d9dc99ba-4f55-4ab9-938b-14df2cd61ac3")
-	)
-	(wire
-		(pts
-			(xy 336.55 215.9) (xy 336.55 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da59611a-0f9d-4af5-84ea-96e904d5cc90")
 	)
 	(wire
 		(pts
@@ -8792,7 +8798,7 @@
 	)
 	(global_label "V_VALVE"
 		(shape input)
-		(at 337.82 215.9 0)
+		(at 340.36 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8802,7 +8808,7 @@
 		)
 		(uuid "3ada3f40-2948-47df-ad48-3588531bc73d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 348.3043 215.9 0)
+			(at 350.8443 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10066,6 +10072,28 @@
 			)
 		)
 	)
+	(global_label "GND_VBAT"
+		(shape input)
+		(at 340.36 224.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee26c060-4079-4f3c-a6ce-babc2a771bf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.5981 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RELAY_10"
 		(shape input)
 		(at 228.6 214.63 0)
@@ -11038,84 +11066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 101.6 162.56 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fdabe25-5661-4c67-b636-c6417a86547b")
-		(property "Reference" "K4"
-			(at 113.03 163.8301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 113.03 161.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 113.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 113.03 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 101.6 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "4f08adc5-5f45-4df5-89d4-455833c9b545")
-		)
-		(pin "13"
-			(uuid "4d7b57bb-3c6a-4da1-851d-c424dc5e5381")
-		)
-		(pin "14"
-			(uuid "da89e955-9896-40d1-8862-6ae805775faa")
-		)
-		(pin "A1"
-			(uuid "405b23e2-2aed-417a-9a2a-bc6290d5425b")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 176.53 0)
 		(unit 1)
@@ -11256,17 +11206,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 215.9 119.38 0)
-		(mirror x)
+		(lib_id "Device:C")
+		(at 339.09 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "18ffa2f5-7b13-40ff-a710-94b4aa1b5340")
-		(property "Reference" "K9"
-			(at 227.33 120.6501 0)
+		(fields_autoplaced yes)
+		(uuid "1999f18a-abe2-4db5-9758-44ca66268bee")
+		(property "Reference" "C38"
+			(at 342.9 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11274,8 +11224,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "G5NB"
-			(at 227.33 118.1101 0)
+		(property "Value" "104"
+			(at 342.9 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11283,28 +11233,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 227.33 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 227.33 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 215.9 119.38 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 340.0552 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,22 +11242,34 @@
 				(hide yes)
 			)
 		)
-		(pin "A2"
-			(uuid "6e3ae2b6-1648-4245-9841-e2bc65161fcf")
+		(property "Datasheet" "~"
+			(at 339.09 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "13"
-			(uuid "6aaec1d7-dc6e-48b6-8f91-7ae2d53475a4")
+		(property "Description" "Unpolarized capacitor"
+			(at 339.09 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "14"
-			(uuid "483d7c48-1eb2-4a4b-921f-f0cc265f85ad")
+		(pin "1"
+			(uuid "61151fcd-842b-419e-9c3d-110f988900ca")
 		)
-		(pin "A1"
-			(uuid "6fcd56d9-86d3-49c3-9713-3a06db94e71a")
+		(pin "2"
+			(uuid "453b44ec-ea32-411f-bc25-fe3db802d3d4")
 		)
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K9")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -11703,17 +11645,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 101.6 33.02 0)
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 215.9 248.92 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "28f5a296-1ca3-4557-8602-01f541c02c76")
-		(property "Reference" "K1"
-			(at 113.03 34.2901 0)
+		(uuid "2899a606-8538-46ad-af70-0f629ea2e41f")
+		(property "Reference" "K7"
+			(at 227.33 250.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11664,7 @@
 			)
 		)
 		(property "Value" "G5NB"
-			(at 113.03 31.7501 0)
+			(at 227.33 247.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +11673,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 113.03 31.75 0)
+			(at 227.33 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,7 +11683,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 113.03 29.21 0)
+			(at 227.33 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11693,7 @@
 			)
 		)
 		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 101.6 33.02 0)
+			(at 215.9 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11759,22 +11701,22 @@
 				(hide yes)
 			)
 		)
-		(pin "A2"
-			(uuid "9b807114-1196-45ac-a064-77d6cd882e06")
+		(pin "A1"
+			(uuid "f2a86881-35e7-43d5-8169-09293e1ba4ab")
 		)
 		(pin "13"
-			(uuid "c65aad45-7e02-464c-867f-257c879284cc")
+			(uuid "0b46dae0-4e75-4a62-b5b2-c89bee097d11")
 		)
 		(pin "14"
-			(uuid "a745b65a-1f81-41dc-a012-f307314969e6")
+			(uuid "c9e1cb94-d47f-4e98-af8c-67ca9eeaf19e")
 		)
-		(pin "A1"
-			(uuid "1e6347ba-88fb-4d34-90b0-f03b4c03a863")
+		(pin "A2"
+			(uuid "b1dc27df-30be-4b12-9b5f-cb359a30cb51")
 		)
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K1")
+					(reference "K7")
 					(unit 1)
 				)
 			)
@@ -11843,6 +11785,84 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 215.9 162.56 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a59acdd-b682-4e75-b59b-915574b0626c")
+		(property "Reference" "K9"
+			(at 227.33 163.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 227.33 161.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 227.33 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 227.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 215.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "20122b45-1254-416f-b501-5244190aaaff")
+		)
+		(pin "13"
+			(uuid "2b7e55ce-bfc2-4025-9cd9-a4099c625793")
+		)
+		(pin "14"
+			(uuid "92314b9a-5b5c-408f-86e9-bf4bd7b5a7ad")
+		)
+		(pin "A2"
+			(uuid "51b8570c-2af2-4aee-9583-b1a97b4682d6")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K9")
 					(unit 1)
 				)
 			)
@@ -12703,84 +12723,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 101.6 119.38 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4236a386-5d90-49d8-92c7-1ee1ad3a3d57")
-		(property "Reference" "K3"
-			(at 113.03 120.6501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 113.03 118.1101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 113.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 113.03 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 101.6 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "dbd7f002-5b6e-4bdb-9efe-a6f5c0cfe11f")
-		)
-		(pin "13"
-			(uuid "a29718d4-9a43-4cbb-a242-194ec9bec162")
-		)
-		(pin "14"
-			(uuid "e4ae0772-3a1a-4057-bc39-b1be3d410af9")
-		)
-		(pin "A1"
-			(uuid "756b4bbb-bb19-42f0-9d07-f65927526d66")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 153.67 254 0)
 		(unit 1)
@@ -12851,17 +12793,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 215.9 248.92 0)
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 215.9 119.38 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "462c2c29-25bb-4edc-8991-db686364a61b")
-		(property "Reference" "K12"
-			(at 227.33 250.1901 0)
+		(uuid "44d5c84a-d6be-4d64-aa62-54f42f8440f2")
+		(property "Reference" "K10"
+			(at 227.33 120.6501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12870,7 +12812,7 @@
 			)
 		)
 		(property "Value" "G5NB"
-			(at 227.33 247.6501 0)
+			(at 227.33 118.1101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12879,7 +12821,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 227.33 247.65 0)
+			(at 227.33 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12889,7 +12831,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 227.33 245.11 0)
+			(at 227.33 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +12841,7 @@
 			)
 		)
 		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 215.9 248.92 0)
+			(at 215.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12907,22 +12849,22 @@
 				(hide yes)
 			)
 		)
-		(pin "A2"
-			(uuid "a91a45bc-32c8-4c78-b934-e43a6d523181")
+		(pin "A1"
+			(uuid "a2a42ace-8f60-4855-afca-200f8ee18c1f")
 		)
 		(pin "13"
-			(uuid "1da1bc08-c729-4204-a99e-3c82362b6508")
+			(uuid "bf0fea8b-a27b-40bc-ab21-a50eb6e2140f")
 		)
 		(pin "14"
-			(uuid "20a5af31-091d-4fca-8778-91f10640b335")
+			(uuid "7df9e1e7-8f61-4531-a3f0-7437a628c9b9")
 		)
-		(pin "A1"
-			(uuid "f07f598d-efc1-494c-83dd-404dc9aa0e43")
+		(pin "A2"
+			(uuid "d57a4075-b0ea-441e-9a54-45ed9e8999e8")
 		)
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K12")
+					(reference "K10")
 					(unit 1)
 				)
 			)
@@ -13147,6 +13089,162 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 101.6 33.02 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49c7b52a-61ee-4332-88a7-374773e47e00")
+		(property "Reference" "K1"
+			(at 113.03 34.2901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 113.03 31.7501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 113.03 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 113.03 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "02bdc1f9-4194-45c9-ae32-009b8455ce87")
+		)
+		(pin "13"
+			(uuid "f5ca2198-fe9d-4f0e-8e1f-b95dbc8232d7")
+		)
+		(pin "14"
+			(uuid "7969d43f-ecea-47a4-9a84-49f178968758")
+		)
+		(pin "A2"
+			(uuid "24ebadb3-949c-438e-bd17-70b89bb63eae")
+		)
+		(instances
+			(project ""
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 215.9 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b908ef4-6cdc-496c-807e-2a13f29f9fc0")
+		(property "Reference" "K11"
+			(at 227.33 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 227.33 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 227.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 227.33 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 215.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "3fcf7a78-f4ea-4345-aed9-31ece4b1422f")
+		)
+		(pin "13"
+			(uuid "73820dca-9f7a-46a7-9d25-feeb4532d505")
+		)
+		(pin "14"
+			(uuid "9e3e6fc2-7016-4006-9f62-43e81845ae3e")
+		)
+		(pin "A2"
+			(uuid "cf7146e0-49ce-4c57-af05-beb072b36bbb")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K11")
 					(unit 1)
 				)
 			)
@@ -14137,6 +14235,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 101.6 119.38 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "587d5a5a-a204-4019-8604-a1b4daf5d365")
+		(property "Reference" "K3"
+			(at 113.03 120.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 113.03 118.1101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 113.03 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "6de15405-2db0-4bcf-a78e-701fa478ec0e")
+		)
+		(pin "13"
+			(uuid "2cfd100d-2820-4bce-9ffc-6a7640f447bd")
+		)
+		(pin "14"
+			(uuid "b896d4f8-18dc-4ff2-b16a-c0adf82c1faf")
+		)
+		(pin "A2"
+			(uuid "4024ab42-8e93-42ab-b08a-d29d00ff46d8")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 78.74 76.2 270)
 		(unit 1)
@@ -14454,6 +14630,84 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 331.47 161.29 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62776b78-51bb-407f-93d4-9fbaac6629bf")
+		(property "Reference" "K16"
+			(at 342.9 162.5601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 342.9 160.0201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 342.9 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 342.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 331.47 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "392d04ce-4c4a-4800-8c99-24ca5d880a50")
+		)
+		(pin "13"
+			(uuid "83564677-a87f-46c4-a8a1-d302b1e4f62c")
+		)
+		(pin "14"
+			(uuid "c5b487a6-4b62-4d60-9900-9f354c237c5a")
+		)
+		(pin "A2"
+			(uuid "a30e21d8-6243-4c2f-b290-7adf3b503a5a")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K16")
 					(unit 1)
 				)
 			)
@@ -14820,6 +15074,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 331.47 207.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ebdbf95-cb41-4d76-9ecb-8f2065ea591e")
+		(property "Reference" "K17"
+			(at 342.9 208.2801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 342.9 205.7401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 342.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 342.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 331.47 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "c026b2c3-ff4a-4cea-84a9-64dc7945d486")
+		)
+		(pin "13"
+			(uuid "fd60a26b-52d3-4eaa-8a7d-ae4a48fae836")
+		)
+		(pin "14"
+			(uuid "04fcd2ed-f0e5-4d40-a256-5577ce7c1a38")
+		)
+		(pin "A2"
+			(uuid "1542068d-bb9a-4242-910f-e8c2a86814b6")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 36.83 220.98 0)
 		(unit 1)
@@ -15107,6 +15439,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 331.47 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75bdaac7-f12d-463e-9322-21cbc8b74643")
+		(property "Reference" "K14"
+			(at 342.9 76.2001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 342.9 73.6601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 342.9 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 342.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 331.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "2a35da62-75bc-417d-b32c-94cc0b8964fa")
+		)
+		(pin "13"
+			(uuid "56a4dd8f-50fb-433e-baea-415401b731a2")
+		)
+		(pin "14"
+			(uuid "5e002575-b3df-4c3b-9b3c-cabfbc502c14")
+		)
+		(pin "A2"
+			(uuid "48f62693-5b1a-4b44-88a8-404049d1249b")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:LTV-817S")
 		(at 49.53 45.72 0)
 		(unit 1)
@@ -15245,6 +15655,84 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 101.6 205.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b913285-6095-4ba7-9133-5b4b25c696bc")
+		(property "Reference" "K5"
+			(at 113.03 207.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 113.03 204.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 113.03 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 113.03 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 101.6 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "12c1b0b7-0887-4b76-9caf-bdc5e8f2ca68")
+		)
+		(pin "13"
+			(uuid "b491106c-fc6f-438c-848e-475c42a4ff34")
+		)
+		(pin "14"
+			(uuid "6dfafcec-c76d-4622-8564-0f95ebbeee18")
+		)
+		(pin "A2"
+			(uuid "97ccc226-dfc9-4a42-b1c7-f0acd10c949e")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -15759,6 +16247,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 215.9 205.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8706c8ba-75c2-4d2b-9588-d84708ea1654")
+		(property "Reference" "K8"
+			(at 227.33 207.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 227.33 204.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 227.33 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 227.33 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 215.9 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "e85982ef-23fd-4e75-8d49-1df1c1a31b17")
+		)
+		(pin "13"
+			(uuid "076e117d-bc8b-478b-8b86-98a6508e532a")
+		)
+		(pin "14"
+			(uuid "e97ab82a-046c-49b2-a758-467f862d5d5b")
+		)
+		(pin "A2"
+			(uuid "639c35ed-04e2-4b8f-965e-6db60c6b5c69")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 210.82 0)
 		(unit 1)
@@ -16196,6 +16762,84 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 101.6 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eac8c5b-89ad-4d65-85c5-cd09220ea805")
+		(property "Reference" "K2"
+			(at 113.03 77.4701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 113.03 74.9301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "d915cea5-0629-4a55-9ab2-d6fa12178b23")
+		)
+		(pin "13"
+			(uuid "6a713caf-0508-45a0-9f13-5f5a494ca361")
+		)
+		(pin "14"
+			(uuid "4b5e07bb-f6c5-4bb5-9b06-d6b0f98cc3e5")
+		)
+		(pin "A2"
+			(uuid "cff0d33c-5a6a-402f-b24f-21bad38bfac7")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -17940,162 +18584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 331.47 74.93 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba2b405a-c231-436e-8689-55019e75a5b9")
-		(property "Reference" "K14"
-			(at 342.9 76.2001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 342.9 73.6601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 342.9 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 342.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 331.47 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "46087d9a-2866-466a-9417-75ffa7d500a4")
-		)
-		(pin "13"
-			(uuid "263c658e-6904-4736-b713-6bae34e7d852")
-		)
-		(pin "14"
-			(uuid "c6fb62f5-304d-4481-b526-5cd237727f85")
-		)
-		(pin "A1"
-			(uuid "8d90c97f-4c8d-4781-b658-f6c9dd5b4d91")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G5NB")
-		(at 331.47 118.11 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baeddfb8-f42b-45f3-ae63-6304d1922a09")
-		(property "Reference" "K15"
-			(at 342.9 119.3801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 342.9 116.8401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 342.9 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 342.9 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 331.47 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "5b003475-063a-4707-a867-d79b4afc2c78")
-		)
-		(pin "13"
-			(uuid "7e82f353-e3fc-4c6b-b515-5d7ad92e58f0")
-		)
-		(pin "14"
-			(uuid "f361d79c-4b70-42e1-a1f8-b04a7e8aa06b")
-		)
-		(pin "A1"
-			(uuid "c6cbc3b3-cb9c-4232-9709-866b6037ee76")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 109.22 133.35 0)
 		(unit 1)
@@ -18236,17 +18724,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 101.6 76.2 0)
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 215.9 33.02 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bee2a53d-2e6f-4e6e-b402-b7560a4f7698")
-		(property "Reference" "K2"
-			(at 113.03 77.4701 0)
+		(uuid "bdec118d-82e5-4001-bfca-0fc94c5ea35f")
+		(property "Reference" "K12"
+			(at 227.33 34.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18255,7 +18743,7 @@
 			)
 		)
 		(property "Value" "G5NB"
-			(at 113.03 74.9301 0)
+			(at 227.33 31.7501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18264,7 +18752,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 113.03 74.93 0)
+			(at 227.33 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18274,7 +18762,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 113.03 72.39 0)
+			(at 227.33 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18284,7 +18772,7 @@
 			)
 		)
 		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 101.6 76.2 0)
+			(at 215.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18292,22 +18780,22 @@
 				(hide yes)
 			)
 		)
-		(pin "A2"
-			(uuid "d512caed-00f4-4be7-99cc-bfc42ba674a7")
+		(pin "A1"
+			(uuid "16dc5b31-99fa-4f0e-8198-55d2f255acb9")
 		)
 		(pin "13"
-			(uuid "394bd925-5dec-4766-9ce0-5b19721f6cc5")
+			(uuid "2d98242a-0bc4-4a95-aa7f-c61ec707abbc")
 		)
 		(pin "14"
-			(uuid "08e8e21a-3a7e-460e-ae89-d983da193ee1")
+			(uuid "32788dbe-5bbe-4631-b45d-043f4573b6bf")
 		)
-		(pin "A1"
-			(uuid "b9611458-9852-4f76-9a30-422e1be35930")
+		(pin "A2"
+			(uuid "2ff78556-71f3-4034-936d-d74a1d0f6d21")
 		)
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K2")
+					(reference "K12")
 					(unit 1)
 				)
 			)
@@ -18402,84 +18890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 331.47 161.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0257bb0-335a-4ac0-9c2e-c34e782784c5")
-		(property "Reference" "K16"
-			(at 342.9 162.5601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 342.9 160.0201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 342.9 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 342.9 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 331.47 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "6f7f8696-8b59-4070-ae53-6ce39d431c5b")
-		)
-		(pin "13"
-			(uuid "a8498dec-5c67-4e02-8cbe-97a8639be756")
-		)
-		(pin "14"
-			(uuid "b53ed312-a23d-46a1-af87-2beb2a70f271")
-		)
-		(pin "A1"
-			(uuid "782f8da4-8ddb-4832-ad08-95b281223d79")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 139.7 0)
 		(unit 1)
@@ -18544,84 +18954,6 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G5NB")
-		(at 215.9 162.56 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c0a3cf94-6d48-4dce-a0df-6353a2cf74ec")
-		(property "Reference" "K10"
-			(at 227.33 163.8301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 227.33 161.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 227.33 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 227.33 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 215.9 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "c99456e8-125f-4f57-ab32-99bf2215bf2e")
-		)
-		(pin "13"
-			(uuid "8ee446a1-3fe5-49ab-acff-14fba0f9c734")
-		)
-		(pin "14"
-			(uuid "54340a3e-a2da-4dee-b7c6-64ba96dbafb7")
-		)
-		(pin "A1"
-			(uuid "504f1198-fac6-4e08-aa1b-f2db610b3a66")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K10")
 					(unit 1)
 				)
 			)
@@ -18699,84 +19031,6 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G5NB")
-		(at 101.6 205.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2e90b7e-7070-4e54-ae70-69cc3b936b8f")
-		(property "Reference" "K5"
-			(at 113.03 207.0101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 113.03 204.4701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 113.03 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 113.03 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 101.6 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "e5dc485a-8d7a-4e5d-a99b-9b4f6a03b5fb")
-		)
-		(pin "13"
-			(uuid "da0d1e18-f44f-42f4-9fd5-007eb8d00356")
-		)
-		(pin "14"
-			(uuid "5f4261a9-6dbb-45b4-9ef6-7e55e2aa9422")
-		)
-		(pin "A1"
-			(uuid "41872284-adb9-4224-88f9-d7a5f83e4f1a")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K5")
 					(unit 1)
 				)
 			)
@@ -18928,84 +19182,6 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G5NB")
-		(at 101.6 248.92 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c70f6c4c-7b60-4d71-9e35-aa00190c7d30")
-		(property "Reference" "K6"
-			(at 113.03 250.1901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 113.03 247.6501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 113.03 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 113.03 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 101.6 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "3ed6e960-3d81-4c79-8f3e-05beb4b46b74")
-		)
-		(pin "13"
-			(uuid "280885c1-c2ff-44e3-8cde-455c29e75942")
-		)
-		(pin "14"
-			(uuid "37afa3ef-2211-4ce3-aec9-14544af1c313")
-		)
-		(pin "A1"
-			(uuid "3401649a-2af1-4901-89f1-1bfdb1ea98a7")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -19227,6 +19403,84 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 101.6 248.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdfd58e2-fb8e-429b-af9c-eacfc0e42691")
+		(property "Reference" "K6"
+			(at 113.03 250.1901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 113.03 247.6501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 113.03 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 113.03 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 101.6 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "aca5ec9e-f5cb-42b9-9138-a98ded49f33f")
+		)
+		(pin "13"
+			(uuid "b53b5a62-8b6c-40c9-a43f-81a7fc1a4bf4")
+		)
+		(pin "14"
+			(uuid "78b6b648-974d-4a80-a7b4-0d084120bc2a")
+		)
+		(pin "A2"
+			(uuid "3166c6d3-4074-4fc8-a0c5-f7a06a326e68")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K6")
 					(unit 1)
 				)
 			)
@@ -19964,17 +20218,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 215.9 33.02 0)
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 331.47 31.75 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dddace7f-de77-44e8-ba64-be64de52e485")
-		(property "Reference" "K7"
-			(at 227.33 34.2901 0)
+		(uuid "dc7ed61d-3c2e-4568-81ed-dbf3af086948")
+		(property "Reference" "K13"
+			(at 342.9 33.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19983,7 +20237,7 @@
 			)
 		)
 		(property "Value" "G5NB"
-			(at 227.33 31.7501 0)
+			(at 342.9 30.4801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19992,7 +20246,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 227.33 31.75 0)
+			(at 342.9 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20002,7 +20256,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 227.33 29.21 0)
+			(at 342.9 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20012,7 +20266,7 @@
 			)
 		)
 		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 215.9 33.02 0)
+			(at 331.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20020,22 +20274,100 @@
 				(hide yes)
 			)
 		)
-		(pin "A2"
-			(uuid "91ca3d44-9d69-4592-b20d-8172ffab98c6")
+		(pin "A1"
+			(uuid "4dc45156-685c-49e4-b726-34312aba4f1f")
 		)
 		(pin "13"
-			(uuid "6f12346b-ba09-4958-91e4-d9c7081a8ed9")
+			(uuid "eef55f5b-1d16-42a9-88ef-437fa896ad75")
 		)
 		(pin "14"
-			(uuid "cf3a6f7c-453e-4fb1-915d-2aafe76ca2f0")
+			(uuid "966b91a4-0c76-4dba-9628-a6c3f2e48f69")
 		)
-		(pin "A1"
-			(uuid "15baad32-54fa-412f-b72f-0d656e386056")
+		(pin "A2"
+			(uuid "416d543d-ede9-4592-a6f0-0825656e45cc")
 		)
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K7")
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 331.47 118.11 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd520bd2-5ad6-493d-a9dc-c33f11893346")
+		(property "Reference" "K15"
+			(at 342.9 119.3801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5NB"
+			(at 342.9 116.8401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
+			(at 342.9 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
+			(at 342.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
+			(at 331.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "8a479867-edb6-442f-9264-051d1a2c4c88")
+		)
+		(pin "13"
+			(uuid "7acfcda9-9b74-4a5a-aa24-7a20c8575324")
+		)
+		(pin "14"
+			(uuid "0aab0d3f-c256-465f-aab8-d96889cf36a6")
+		)
+		(pin "A2"
+			(uuid "7d2d4f67-96e2-42fe-8f80-66a8f370973c")
+		)
+		(instances
+			(project "DECON_Ctrl_Panel"
+				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
+					(reference "K15")
 					(unit 1)
 				)
 			)
@@ -20347,84 +20679,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 331.47 31.75 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2f9eb3d-dd5a-4dd8-b939-d4c1db390e04")
-		(property "Reference" "K13"
-			(at 342.9 33.0201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 342.9 30.4801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 342.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 342.9 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 331.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "c8ac203a-1baf-4500-abc6-ba1fd716c9a7")
-		)
-		(pin "13"
-			(uuid "e8a27d3a-f8d9-48e8-b895-ffa2d6020c32")
-		)
-		(pin "14"
-			(uuid "0ea253f2-ed76-45ba-b08c-d73bc2666521")
-		)
-		(pin "A1"
-			(uuid "e15f5b81-3e8f-4ccb-af93-a96e08b9a939")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 292.1 133.35 90)
 		(unit 1)
@@ -20631,84 +20885,6 @@
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:G5NB")
-		(at 331.47 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e54f1d70-dd5d-48d6-be27-3023e916ab84")
-		(property "Reference" "K17"
-			(at 342.9 205.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 342.9 208.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 342.9 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 342.9 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 331.47 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "d2d66b19-a161-4e96-b5ff-6fb11d431969")
-		)
-		(pin "13"
-			(uuid "f5b273f5-871a-4c17-86cd-19515f105efa")
-		)
-		(pin "14"
-			(uuid "eb635ff5-438d-43c0-a005-af1bbef7b3f5")
-		)
-		(pin "A1"
-			(uuid "6960d6b1-7f6e-407c-b04f-504f34449edb")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K17")
 					(unit 1)
 				)
 			)
@@ -21807,84 +21983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 215.9 205.74 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7827a45-f8ab-4265-919f-8e043a4e2fbe")
-		(property "Reference" "K11"
-			(at 227.33 207.0101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5NB"
-			(at 227.33 204.4701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 227.33 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 227.33 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 215.9 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "81219135-8d6a-4328-ab1e-e846b6afc7c1")
-		)
-		(pin "13"
-			(uuid "8cc89201-591d-42c5-8ac4-f1eba6c2d2b7")
-		)
-		(pin "14"
-			(uuid "ec0e5be5-fca3-4c52-96b0-ddc8e313703c")
-		)
-		(pin "A1"
-			(uuid "0ed8b8fd-22b0-418f-9617-106f3816e5ab")
-		)
-		(instances
-			(project "DECON_Ctrl_Panel"
-				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148W")
 		(at 193.04 205.74 270)
 		(unit 1)
@@ -22189,17 +22287,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5NB")
-		(at 215.9 76.2 0)
+		(lib_id "Son_KiCad_lib:G5NB")
+		(at 101.6 162.56 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fedcb09d-8e09-45a5-8cf3-1b6f408dfa75")
-		(property "Reference" "K8"
-			(at 227.33 77.4701 0)
+		(uuid "fe5cb978-0ccf-44d6-b735-7d5ae4436ca8")
+		(property "Reference" "K4"
+			(at 113.03 163.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22208,7 +22306,7 @@
 			)
 		)
 		(property "Value" "G5NB"
-			(at 227.33 74.9301 0)
+			(at 113.03 161.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22217,7 +22315,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 227.33 74.93 0)
+			(at 113.03 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22227,7 +22325,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 227.33 72.39 0)
+			(at 113.03 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22237,7 +22335,7 @@
 			)
 		)
 		(property "Description" "PCB Power Relay, SPST-NO, 7A (250 VAC), 5A (30 VDC)"
-			(at 215.9 76.2 0)
+			(at 101.6 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22245,22 +22343,22 @@
 				(hide yes)
 			)
 		)
-		(pin "A2"
-			(uuid "65b52440-ac08-43fe-abe2-44b96c694cb3")
+		(pin "A1"
+			(uuid "3e54ace0-04e2-47f3-88ac-c28a5c38b94b")
 		)
 		(pin "13"
-			(uuid "6b375c4e-37da-48fb-8ebc-49ba4a9ae826")
+			(uuid "6e9f75d2-048f-4c4d-bd0a-0be0f2481054")
 		)
 		(pin "14"
-			(uuid "d2056b1b-a7b0-4498-871b-7c4d99dccdf0")
+			(uuid "a3883af1-73af-4366-9c1d-d71f21d44803")
 		)
-		(pin "A1"
-			(uuid "5c715fdb-5448-47a1-a930-5855a74cc64e")
+		(pin "A2"
+			(uuid "36240117-1ae7-4b1e-af1c-90b5039a0cfb")
 		)
 		(instances
 			(project "DECON_Ctrl_Panel"
 				(path "/47267b0b-286c-4b8f-b9a8-0ba7bc68aaf0/2b9ac746-2b50-4445-9c97-b47a3b42976f"
-					(reference "K8")
+					(reference "K4")
 					(unit 1)
 				)
 			)
