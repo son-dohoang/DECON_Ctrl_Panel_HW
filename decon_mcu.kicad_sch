@@ -7884,6 +7884,28 @@
 			)
 		)
 	)
+	(global_label "LED_4"
+		(shape input)
+		(at 154.94 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05bf58ef-83af-497c-a0d3-192192c29dc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_RL8"
 		(shape input)
 		(at 269.24 165.1 270)
@@ -7946,6 +7968,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_3"
+		(shape input)
+		(at 182.88 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "081e2037-724d-4286-8742-0a611b48ef85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.88 257.469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8128,22 +8172,22 @@
 	)
 	(global_label "LED_POWER"
 		(shape input)
-		(at 140.97 257.81 90)
+		(at 185.42 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "13512d9c-2d50-4977-9dc5-9b8c270c9c9d")
+		(uuid "12055feb-9e72-4639-b924-a5f6038c1fe8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 243.9392 90)
+			(at 185.42 258.9808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8183,6 +8227,28 @@
 		(uuid "13ea1fc2-b88c-404f-bc10-3e684e273419")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 346.3858 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_EN"
+		(shape input)
+		(at 129.54 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1494829b-f731-45ee-8098-332f1667bcd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 258.739 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,6 +8588,28 @@
 			)
 		)
 	)
+	(global_label "LED_5"
+		(shape input)
+		(at 200.66 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "261a92de-5cc5-4a3e-87b8-d23068a462c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.66 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA7"
 		(shape input)
 		(at 261.62 156.21 270)
@@ -8584,6 +8672,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_5"
+		(shape input)
+		(at 157.48 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2810b687-87b7-4495-890f-3bd04e0ba975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8676,24 +8786,24 @@
 			)
 		)
 	)
-	(global_label "BUTTON_EN"
+	(global_label "GND_VBAT"
 		(shape input)
-		(at 171.45 257.81 90)
+		(at 170.18 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2b807091-7aeb-465d-a729-cf912387b328")
+		(uuid "2ab9b811-4c64-4a4e-8c4a-0e232880a0b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 244.181 90)
+			(at 170.18 257.3481 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8821,28 +8931,6 @@
 		(uuid "31b8e34f-b605-4ac6-82d1-170d81c1ce16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.74 249.5634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON_1"
-		(shape input)
-		(at 176.53 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33829739-32f7-4238-8431-e94176a5c122")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.53 245.451 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9002,6 +9090,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_1"
+		(shape input)
+		(at 134.62 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b1c0089-da4c-4fad-b263-0d80eb894e73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 257.469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9358,6 +9468,28 @@
 			)
 		)
 	)
+	(global_label "EXT_OUTPUT"
+		(shape input)
+		(at 205.74 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49b6683c-62de-4c66-87ec-1a3e2b1d8c6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 259.5856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_BTN_4"
 		(shape input)
 		(at 313.69 128.27 0)
@@ -9446,28 +9578,6 @@
 			)
 		)
 	)
-	(global_label "LED_5"
-		(shape input)
-		(at 199.39 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e534a0b-d6a5-461e-8762-014b3452ffe6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB3"
 		(shape input)
 		(at 389.89 156.21 0)
@@ -9490,24 +9600,46 @@
 			)
 		)
 	)
-	(global_label "BUTTON_1"
+	(global_label "BUTTON_3"
 		(shape input)
-		(at 133.35 257.81 90)
+		(at 139.7 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "52261a37-0e3f-442c-85f3-e3f588816d7f")
+		(uuid "50f95e5b-2568-4905-8eee-460e10014ee5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 245.451 90)
+			(at 139.7 257.469 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_2"
+		(shape input)
+		(at 149.86 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53060c06-d209-4f0f-8348-e5cdeb0e2908")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9534,24 +9666,24 @@
 			)
 		)
 	)
-	(global_label "BUTTON_2"
+	(global_label "GND_VBAT"
 		(shape input)
-		(at 135.89 257.81 90)
+		(at 127 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "55a35a4c-0caa-4385-a570-70a684451d67")
+		(uuid "540b49c2-9344-4ddf-ba9f-dd9ef85bbca0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 245.451 90)
+			(at 127 257.3481 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9635,6 +9767,28 @@
 		(uuid "59949741-1782-46a1-b43b-992b0b43a0ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 345.2367 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_0"
+		(shape input)
+		(at 187.96 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a1af081-9695-4ddb-82a6-d724c058993f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 253.7194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,50 +9886,6 @@
 			)
 		)
 	)
-	(global_label "LED_4"
-		(shape input)
-		(at 196.85 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5c97682f-bbc0-4e84-9cc7-30214dc8a74c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON_3"
-		(shape input)
-		(at 181.61 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ca79348-a8f9-4528-938d-0658f4957557")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.61 245.451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3V"
 		(shape input)
 		(at 229.87 110.49 180)
@@ -9860,6 +9970,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXT_OUTPUT"
+		(shape input)
+		(at 162.56 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f11db91-7e9b-4d4d-bea8-27926b84debf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 259.5856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10036,28 +10168,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON_3"
-		(shape input)
-		(at 138.43 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64cbbd1b-9808-4cbb-971a-cedf55d7e5e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 245.451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10260,28 +10370,6 @@
 			)
 		)
 	)
-	(global_label "LED_4"
-		(shape input)
-		(at 153.67 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b565699-00b1-48a7-ae10-346c8a348657")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VCAP1"
 		(shape input)
 		(at 354.33 176.53 180)
@@ -10300,28 +10388,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON_2"
-		(shape input)
-		(at 179.07 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6cae3688-b859-46dc-ab58-f97174f38b0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.07 245.451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -10502,28 +10568,6 @@
 			)
 		)
 	)
-	(global_label "LED_5"
-		(shape input)
-		(at 156.21 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "72a9d52a-2f22-46fd-80d9-ace03830e114")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC9"
 		(shape input)
 		(at 354.33 156.21 180)
@@ -10586,6 +10630,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_0"
+		(shape input)
+		(at 144.78 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77372498-59e2-4308-871b-df11c2755b70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.78 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10762,50 +10828,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_1"
-		(shape input)
-		(at 146.05 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e9f494f-44f0-4c26-a1ca-ef75ad6577b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_3"
-		(shape input)
-		(at 194.31 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "800d81d4-0e40-4dc0-8e5d-a773f9664ade")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11052,6 +11074,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_1"
+		(shape input)
+		(at 177.8 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bea42d6-4c70-42f6-bfc1-9a6786c1ba3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.8 257.469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OSC32_IN"
 		(shape input)
 		(at 135.89 99.06 0)
@@ -11162,28 +11206,6 @@
 			)
 		)
 	)
-	(global_label "GND_VBAT"
-		(shape input)
-		(at 125.73 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "934a5700-20d9-4c68-ab2b-230dfa50787d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.73 245.5719 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PA2"
 		(shape input)
 		(at 389.89 110.49 0)
@@ -11250,28 +11272,6 @@
 			)
 		)
 	)
-	(global_label "LED_3"
-		(shape input)
-		(at 151.13 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9649267c-b419-4b0f-9883-f6439cc2ec71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC13"
 		(shape input)
 		(at 52.07 115.57 270)
@@ -11290,28 +11290,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXT_OUTPUT"
-		(shape input)
-		(at 161.29 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9769dd63-2872-49b2-9341-63f072f1ad23")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.29 243.3344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11382,6 +11360,28 @@
 			)
 		)
 	)
+	(global_label "LED_2"
+		(shape input)
+		(at 193.04 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97f6fed1-125e-42ad-bee6-9c5c2f810854")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.04 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_RL5"
 		(shape input)
 		(at 261.62 165.1 270)
@@ -11417,28 +11417,6 @@
 		(uuid "9858aa19-d3d8-41d4-bbdc-369d1d52c33f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 105.41 247.6887 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 166.37 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98894e79-9978-4ba6-82e8-db455cedd4be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.37 250.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11558,6 +11536,28 @@
 			)
 		)
 	)
+	(global_label "LED_1"
+		(shape input)
+		(at 147.32 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d21670a-d755-4289-b93d-ba91953e7c49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SENSOR_0"
 		(shape input)
 		(at 102.87 260.35 90)
@@ -11668,24 +11668,24 @@
 			)
 		)
 	)
-	(global_label "BUTTON_0"
+	(global_label "VBAT"
 		(shape input)
-		(at 173.99 257.81 90)
+		(at 167.64 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a4b8e536-3782-4042-a756-3d95e7cb43ee")
+		(uuid "a4aaa666-9ea5-459c-9bcd-eb35c8d087c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 245.451 90)
+			(at 167.64 252.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11703,50 +11703,6 @@
 		(uuid "a4d5ce20-8748-4ddb-913f-0a608e03986b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 298.8347 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUTTON_0"
-		(shape input)
-		(at 130.81 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a505c35b-91a7-49e9-b7e2-e917e8ae4db6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.81 245.451 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_6"
-		(shape input)
-		(at 158.75 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a6dedee7-1e3d-4833-8d6f-5c37f8a88eb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 249.2006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11800,50 +11756,6 @@
 			)
 		)
 	)
-	(global_label "LED_0"
-		(shape input)
-		(at 143.51 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abbb151b-f540-44dd-9f50-48c551edbac4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_POWER"
-		(shape input)
-		(at 184.15 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "acf9b3c4-ac6d-40e7-828b-24ae0e4a806c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.15 243.9392 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_RL7"
 		(shape input)
 		(at 266.7 165.1 270)
@@ -11879,6 +11791,28 @@
 		(uuid "afa31265-6b08-48ef-afc1-6a97647352b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.2067 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 124.46 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b01e7acf-ecc0-476f-aa81-3b0487a3ddc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 252.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,6 +11932,28 @@
 			)
 		)
 	)
+	(global_label "LED_1"
+		(shape input)
+		(at 190.5 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3c7af3f-4e14-46e7-8f4b-ff02401c4e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_RL0"
 		(shape input)
 		(at 220.98 148.59 180)
@@ -12064,6 +12020,28 @@
 			)
 		)
 	)
+	(global_label "BUTTON_2"
+		(shape input)
+		(at 137.16 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "baaa976c-45ac-49c8-b2ad-8f7f70bda22d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 257.469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PB0"
 		(shape input)
 		(at 389.89 148.59 0)
@@ -12086,24 +12064,24 @@
 			)
 		)
 	)
-	(global_label "LED_2"
+	(global_label "LED_6"
 		(shape input)
-		(at 191.77 257.81 90)
+		(at 203.2 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "bbfa93e6-6431-4f7b-a766-dff823beb3dc")
+		(uuid "bc15237d-1d8d-4efd-8db7-40da7f6bf9f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.77 249.2006 90)
+			(at 203.2 253.7194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12126,6 +12104,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_0"
+		(shape input)
+		(at 132.08 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c061db92-9a33-42ce-a44c-475d5482ef14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 257.469 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12187,6 +12187,28 @@
 		(uuid "c4e8fcc0-66e3-4d53-a5a2-e7b4b564eff0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.2067 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_4"
+		(shape input)
+		(at 198.12 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5930393-096f-4ee3-82ff-ffc49c0fb259")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.12 253.7194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,28 +12372,6 @@
 			)
 		)
 	)
-	(global_label "LED_0"
-		(shape input)
-		(at 186.69 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb769eb2-6e09-4dd4-965a-e7d1b10baa22")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RELAY_5"
 		(shape input)
 		(at 68.58 260.35 90)
@@ -12407,28 +12407,6 @@
 		(uuid "cbb84abe-f987-4d2c-98f7-606d0d63387a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 397.8342 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 123.19 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cc9fec1d-ebdc-4c29-bf60-c014b3f50fa4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 250.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,6 +12548,28 @@
 			)
 		)
 	)
+	(global_label "LED_6"
+		(shape input)
+		(at 160.02 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2f1ee00-909c-4034-874a-125dccae1d2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.02 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PA15"
 		(shape input)
 		(at 389.89 143.51 0)
@@ -12627,28 +12627,6 @@
 		(uuid "d4a65d13-cd2a-4dfa-b3df-c847f69401ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 71.12 249.5634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXT_OUTPUT"
-		(shape input)
-		(at 204.47 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4a6feb0-ea78-43e8-8242-342b0a1144e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 243.3344 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12746,24 +12724,24 @@
 			)
 		)
 	)
-	(global_label "LED_6"
+	(global_label "BUTTON_0"
 		(shape input)
-		(at 201.93 257.81 90)
+		(at 175.26 245.11 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "d8eebc7f-c1bc-4cf4-a8e5-358cff6ce70c")
+		(uuid "d891a0a2-71f0-4e69-bd3a-2dd4b4a4f69e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 249.2006 90)
+			(at 175.26 257.469 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12922,28 +12900,6 @@
 			)
 		)
 	)
-	(global_label "GND_VBAT"
-		(shape input)
-		(at 168.91 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dfa54dcb-e16f-4cf1-a309-b80ee6f67f98")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.91 245.5719 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC2"
 		(shape input)
 		(at 354.33 138.43 180)
@@ -13098,6 +13054,28 @@
 			)
 		)
 	)
+	(global_label "LED_3"
+		(shape input)
+		(at 152.4 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7e16b32-04c2-4833-9f42-01089d39b7c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 253.7194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PC6"
 		(shape input)
 		(at 354.33 148.59 180)
@@ -13111,6 +13089,50 @@
 		(uuid "e89d1d20-8be6-4a2a-9c64-bb7611d93da2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.5953 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_EN"
+		(shape input)
+		(at 172.72 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8fb4597-7b55-4a08-9e74-23c63cdc73ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.72 258.739 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_3"
+		(shape input)
+		(at 195.58 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea05cff5-fa38-4aa5-a11a-ba2170af3c3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.58 253.7194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13252,6 +13274,28 @@
 			)
 		)
 	)
+	(global_label "LED_POWER"
+		(shape input)
+		(at 142.24 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed223a17-d984-4989-9db9-52b17ee757ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 258.9808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU_BTN_3"
 		(shape input)
 		(at 313.69 130.81 0)
@@ -13309,6 +13353,28 @@
 		(uuid "f297757d-4d8d-4594-b695-b64e0fcd515b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.3792 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BUTTON_2"
+		(shape input)
+		(at 180.34 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f2ea30ed-c072-4871-bee4-bca4f62b8961")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 257.469 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13406,28 +13472,6 @@
 			)
 		)
 	)
-	(global_label "BUTTON_EN"
-		(shape input)
-		(at 128.27 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f6757a72-69dc-4d8e-86ea-452a35ca5487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 244.181 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC4"
 		(shape input)
 		(at 354.33 143.51 180)
@@ -13516,28 +13560,6 @@
 			)
 		)
 	)
-	(global_label "LED_1"
-		(shape input)
-		(at 189.23 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fbe48fd9-3306-4c26-b0fe-1f7388d3079a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.23 249.2006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PC12"
 		(shape input)
 		(at 354.33 163.83 180)
@@ -13573,28 +13595,6 @@
 		(uuid "fdbc59cb-b4ea-4b3d-97ee-a6e53e8a59e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 63.5 249.5634 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_2"
-		(shape input)
-		(at 148.59 257.81 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fe2f656d-581b-4cae-bd0a-1623a8f7e606")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 249.2006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13676,7 +13676,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 143.51 262.89 90)
+		(at 185.42 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13685,7 +13685,7 @@
 		(dnp no)
 		(uuid "1f61cb9a-1a22-4846-b052-e0664f136dcb")
 		(property "Reference" "J9"
-			(at 144.78 266.7 90)
+			(at 184.15 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13693,7 +13693,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 144.78 269.24 90)
+			(at 184.15 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13701,7 +13701,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal"
-			(at 143.51 262.89 0)
+			(at 185.42 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13710,7 +13710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 262.89 0)
+			(at 185.42 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13719,7 +13719,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 262.89 0)
+			(at 185.42 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14902,7 +14902,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 171.45 262.89 90)
+		(at 157.48 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14911,7 +14911,7 @@
 		(dnp no)
 		(uuid "52ccebc1-f24a-41ed-bc88-9627663eb8ca")
 		(property "Reference" "J11"
-			(at 172.72 266.7 90)
+			(at 156.21 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14919,7 +14919,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 172.72 269.24 90)
+			(at 156.21 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14927,7 +14927,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal"
-			(at 171.45 262.89 0)
+			(at 157.48 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14936,7 +14936,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 262.89 0)
+			(at 157.48 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14945,7 +14945,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 262.89 0)
+			(at 157.48 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16976,7 +16976,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 199.39 262.89 90)
+		(at 129.54 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16985,7 +16985,7 @@
 		(dnp no)
 		(uuid "aa79d48d-7ecc-4e78-b44f-da800bdf4257")
 		(property "Reference" "J13"
-			(at 200.66 266.7 90)
+			(at 128.27 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +16993,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 200.66 269.24 90)
+			(at 128.27 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17001,7 +17001,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
-			(at 199.39 262.89 0)
+			(at 129.54 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17010,7 +17010,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 262.89 0)
+			(at 129.54 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17019,7 +17019,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 199.39 262.89 0)
+			(at 129.54 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17543,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 156.21 262.89 90)
+		(at 172.72 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17552,7 +17552,7 @@
 		(dnp no)
 		(uuid "de23879b-125c-4d59-a70e-58bc992851fd")
 		(property "Reference" "J10"
-			(at 157.48 266.7 90)
+			(at 171.45 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17560,7 +17560,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 157.48 269.24 90)
+			(at 171.45 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +17568,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03404HBLC_1x04_P3.81mm_Horizontal"
-			(at 156.21 262.89 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17577,7 +17577,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 262.89 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17586,7 +17586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 156.21 262.89 0)
+			(at 172.72 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17773,7 +17773,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 186.69 262.89 90)
+		(at 142.24 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17782,7 +17782,7 @@
 		(dnp no)
 		(uuid "f28983fe-ab29-4d7f-81ec-a4fb884ced15")
 		(property "Reference" "J12"
-			(at 187.96 266.7 90)
+			(at 140.97 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17790,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 187.96 269.24 90)
+			(at 140.97 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,7 +17798,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal"
-			(at 186.69 262.89 0)
+			(at 142.24 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17807,7 +17807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 262.89 0)
+			(at 142.24 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17816,7 +17816,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 186.69 262.89 0)
+			(at 142.24 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17927,7 +17927,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 128.27 262.89 90)
+		(at 200.66 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17936,7 +17936,7 @@
 		(dnp no)
 		(uuid "f46ff3e0-7419-4ec5-a38a-41703752c7ae")
 		(property "Reference" "J8"
-			(at 129.54 266.7 90)
+			(at 199.39 236.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17944,7 +17944,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06"
-			(at 129.54 269.24 90)
+			(at 199.39 233.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17952,7 +17952,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03406HBLC_1x06_P3.81mm_Horizontal"
-			(at 128.27 262.89 0)
+			(at 200.66 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17961,7 +17961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 262.89 0)
+			(at 200.66 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17970,7 +17970,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 128.27 262.89 0)
+			(at 200.66 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
