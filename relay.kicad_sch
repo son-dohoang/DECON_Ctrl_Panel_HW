@@ -1433,7 +1433,7 @@
 		(uuid "0324b5cb-0a73-4223-9c86-1a53faed9f56")
 	)
 	(junction
-		(at 339.09 215.9)
+		(at 336.55 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c96e94-fe40-4901-acf9-c936d6a18eae")
@@ -2586,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 198.12) (xy 336.55 198.12)
+			(xy 326.39 198.12) (xy 339.09 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2756,6 +2756,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 198.12) (xy 339.09 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aca658e-1f71-47ba-98ac-2e2cf156ac7f")
+	)
+	(wire
+		(pts
 			(xy 29.21 177.8) (xy 31.75 177.8)
 		)
 		(stroke
@@ -2896,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 223.52) (xy 339.09 224.79)
+			(xy 336.55 223.52) (xy 336.55 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3826,7 +3836,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 224.79) (xy 339.09 224.79)
+			(xy 337.82 224.79) (xy 336.55 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3946,7 +3956,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 215.9) (xy 339.09 215.9)
+			(xy 337.82 215.9) (xy 336.55 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5866,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 215.9) (xy 339.09 214.63)
+			(xy 336.55 215.9) (xy 336.55 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6073,16 +6083,6 @@
 			(type default)
 		)
 		(uuid "9339d695-5bdc-436f-9cfe-ad2a541c4ad2")
-	)
-	(wire
-		(pts
-			(xy 336.55 198.12) (xy 336.55 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93b33c5e-e7f0-49ac-b321-935bd7298fa0")
 	)
 	(wire
 		(pts
@@ -8798,7 +8798,7 @@
 	)
 	(global_label "V_VALVE"
 		(shape input)
-		(at 340.36 215.9 0)
+		(at 337.82 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8808,7 +8808,7 @@
 		)
 		(uuid "3ada3f40-2948-47df-ad48-3588531bc73d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.8443 215.9 0)
+			(at 348.3043 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10074,7 +10074,7 @@
 	)
 	(global_label "GND_VBAT"
 		(shape input)
-		(at 340.36 224.79 0)
+		(at 337.82 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10084,7 +10084,7 @@
 		)
 		(uuid "ee26c060-4079-4f3c-a6ce-babc2a771bf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.5981 224.79 0)
+			(at 350.0581 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11207,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 339.09 219.71 0)
+		(at 336.55 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11216,7 +11216,7 @@
 		(fields_autoplaced yes)
 		(uuid "1999f18a-abe2-4db5-9758-44ca66268bee")
 		(property "Reference" "C38"
-			(at 342.9 218.4399 0)
+			(at 340.36 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11225,7 @@
 			)
 		)
 		(property "Value" "104"
-			(at 342.9 220.9799 0)
+			(at 340.36 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11234,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 340.0552 223.52 0)
+			(at 337.5152 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 339.09 219.71 0)
+			(at 336.55 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11252,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 339.09 219.71 0)
+			(at 336.55 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15076,7 +15076,6 @@
 	(symbol
 		(lib_id "Son_KiCad_lib:G5NB")
 		(at 331.47 207.01 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15084,7 +15083,7 @@
 		(dnp no)
 		(uuid "6ebdbf95-cb41-4d76-9ecb-8f2065ea591e")
 		(property "Reference" "K17"
-			(at 342.9 208.2801 0)
+			(at 342.9 205.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15093,7 +15092,7 @@
 			)
 		)
 		(property "Value" "G5NB"
-			(at 342.9 205.7401 0)
+			(at 342.9 208.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15102,7 +15101,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPST_Omron_G5NB"
-			(at 342.9 205.74 0)
+			(at 342.9 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15112,7 +15111,7 @@
 			)
 		)
 		(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb_el.pdf"
-			(at 342.9 203.2 0)
+			(at 342.9 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
