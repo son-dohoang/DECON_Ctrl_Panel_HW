@@ -7718,28 +7718,6 @@
 			)
 		)
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 44.45 260.35 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06ef767f-c368-48f7-a5ca-49b3e42e0f60")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.45 252.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUTTON_3"
 		(shape input)
 		(at 182.88 245.11 270)
@@ -8884,28 +8862,6 @@
 			)
 		)
 	)
-	(global_label "GND_VBAT"
-		(shape input)
-		(at 46.99 260.35 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3a0199c2-c807-4555-b42d-8720316140a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 248.1119 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUTTON_1"
 		(shape input)
 		(at 134.62 245.11 270)
@@ -9359,6 +9315,28 @@
 		(uuid "4d894f48-402b-4fb6-bd1a-3acf86f673f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.5953 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_VBAT"
+		(shape input)
+		(at 120.65 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e9a6a74-a1f9-4c24-a67c-7ee87160ca8b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 257.3481 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12642,6 +12620,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape input)
+		(at 118.11 245.11 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d495b2d1-44ca-4727-8678-2dfbccb53a21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.11 252.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -16610,7 +16610,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 44.45 265.43 90)
+		(at 120.65 240.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16619,7 +16619,7 @@
 		(dnp no)
 		(uuid "9c4a22de-00dc-4a5e-a227-da619146bc55")
 		(property "Reference" "J1"
-			(at 41.91 264.1599 90)
+			(at 123.19 241.3001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,7 +16628,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 41.91 266.6999 90)
+			(at 123.19 238.7601 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16637,7 +16637,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type086_RT03402HBLC_1x02_P3.81mm_Horizontal"
-			(at 44.45 265.43 0)
+			(at 120.65 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16646,7 +16646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 265.43 0)
+			(at 120.65 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16655,7 +16655,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 44.45 265.43 0)
+			(at 120.65 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
