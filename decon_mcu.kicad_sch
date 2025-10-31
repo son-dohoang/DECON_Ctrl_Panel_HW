@@ -12252,7 +12252,7 @@
 			)
 		)
 	)
-	(global_label "GND_VBATT"
+	(global_label "GND_VBAT"
 		(shape input)
 		(at 29.21 46.99 180)
 		(fields_autoplaced yes)
@@ -12264,7 +12264,7 @@
 		)
 		(uuid "c0a3f678-77ba-4c1b-be39-69f7e879866a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0043 46.99 0)
+			(at 16.9719 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
