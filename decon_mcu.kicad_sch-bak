@@ -12474,22 +12474,22 @@
 	)
 	(global_label "SWCLK"
 		(shape input)
-		(at 81.28 147.32 270)
+		(at 81.28 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c9848c55-604d-4e2d-9032-eecbf14e23b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.28 156.5342 90)
+			(at 90.4942 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)

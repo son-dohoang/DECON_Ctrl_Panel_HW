@@ -2163,7 +2163,7 @@
 		(uuid "7c1a18d8-c157-4d10-bb20-7f0738ab4e62")
 	)
 	(junction
-		(at 308.61 237.49)
+		(at 320.04 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c94f595-0872-4149-a6ab-ab6a1a127521")
@@ -2798,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 223.52) (xy 308.61 237.49)
+			(xy 320.04 223.52) (xy 320.04 237.49)
 		)
 		(stroke
 			(width 0)
@@ -3828,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 237.49) (xy 308.61 237.49)
+			(xy 295.91 237.49) (xy 320.04 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5028,7 +5028,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 218.44) (xy 300.99 218.44)
+			(xy 295.91 218.44) (xy 312.42 218.44)
 		)
 		(stroke
 			(width 0)
@@ -5748,7 +5748,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 213.36) (xy 308.61 209.55)
+			(xy 320.04 213.36) (xy 320.04 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5888,7 +5888,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 213.36) (xy 287.02 204.47)
+			(xy 287.02 213.36) (xy 287.02 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7578,7 +7578,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 204.47) (xy 316.23 204.47)
+			(xy 287.02 201.93) (xy 294.64 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7648,7 +7648,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 209.55) (xy 316.23 209.55)
+			(xy 320.04 209.55) (xy 327.66 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8178,7 +8178,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 237.49) (xy 318.77 237.49)
+			(xy 320.04 237.49) (xy 330.2 237.49)
 		)
 		(stroke
 			(width 0)
@@ -9174,7 +9174,7 @@
 	)
 	(global_label "GND_VBAT"
 		(shape input)
-		(at 318.77 237.49 0)
+		(at 330.2 237.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9184,7 +9184,7 @@
 		)
 		(uuid "1b068fc9-c109-4eea-bd15-695247c1786a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.0081 237.49 0)
+			(at 342.4381 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9922,7 +9922,7 @@
 	)
 	(global_label "PWM_OUT"
 		(shape input)
-		(at 316.23 209.55 0)
+		(at 327.66 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9932,7 +9932,7 @@
 		)
 		(uuid "85b1cd07-fbf6-4410-a1f5-be3cde5cdd22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.9842 209.55 0)
+			(at 339.4142 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +9988,7 @@
 	)
 	(global_label "V_VALVE"
 		(shape input)
-		(at 316.23 204.47 0)
+		(at 294.64 201.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9998,7 +9998,7 @@
 		)
 		(uuid "9511ccd9-32fa-4459-923a-d65a9a651dee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 326.7143 204.47 0)
+			(at 305.1243 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19843,7 +19843,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 306.07 218.44 0)
+		(at 317.5 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19852,7 +19852,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfcb737a-d7fc-448b-bda5-26d625bfb871")
 		(property "Reference" "Q19"
-			(at 312.42 217.1699 0)
+			(at 323.85 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19861,7 +19861,7 @@
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 312.42 219.7099 0)
+			(at 323.85 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19870,7 +19870,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 311.15 220.345 0)
+			(at 322.58 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19881,7 +19881,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 311.15 222.25 0)
+			(at 322.58 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19891,7 +19891,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 306.07 218.44 0)
+			(at 317.5 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
